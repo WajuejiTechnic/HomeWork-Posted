@@ -1,0 +1,6 @@
+C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\CalculatorConsole\bin\Debug\CalculatorConsole.exe.config
+C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\CalculatorConsole\bin\Debug\CalculatorConsole.exe
+C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\CalculatorConsole\bin\Debug\CalculatorConsole.pdb
+C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\CalculatorConsole\obj\Debug\CalculatorConsole.csprojResolveAssemblyReference.cache
+C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\CalculatorConsole\obj\Debug\CalculatorConsole.exe
+C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\CalculatorConsole\obj\Debug\CalculatorConsole.pdb
