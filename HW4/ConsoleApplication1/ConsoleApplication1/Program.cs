@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication5
+namespace ConsoleApplication1
 {
     class Program
     {
+        private static int sum;
+
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
             int[] numArray = new int[n];
-            string[] stringArray = new string[n];
+
 
             for (int j = 0; j < n; j++)
             {
@@ -21,13 +23,10 @@ namespace ConsoleApplication5
 
             for (int i = 0; i < n; i++)
             {
-                stringArray[i] = Convert.ToString(numArray[i]);
-                Console.Write(stringArray[i] + " ");
+
+                sum = numArray[i] + sum;
             }
-            //for (int i = 0; i < n; i++)
-            //{
-            //    Console.Write(stringArray[i] + " ");
-            //}
+            Console.WriteLine(sum);
         }
     }
 }
