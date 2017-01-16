@@ -4,3 +4,6 @@ C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\AreaCalculator\b
 C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\AreaCalculator\obj\Debug\AreaCalculator.csprojResolveAssemblyReference.cache
 C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\AreaCalculator\obj\Debug\AreaCalculator.exe
 C:\Users\Zhe\Desktop\HelloWare Assignment\HW2\CalculatorConsole\AreaCalculator\obj\Debug\AreaCalculator.pdb
+C:\Users\Zhe\Desktop\HelloWare Assignment\HomeWork-Posted\HW2\CalculatorConsole\AreaCalculator\bin\Debug\AreaCalculator.exe.config
+C:\Users\Zhe\Desktop\HelloWare Assignment\HomeWork-Posted\HW2\CalculatorConsole\AreaCalculator\obj\Debug\AreaCalculator.exe
+C:\Users\Zhe\Desktop\HelloWare Assignment\HomeWork-Posted\HW2\CalculatorConsole\AreaCalculator\obj\Debug\AreaCalculator.pdb
