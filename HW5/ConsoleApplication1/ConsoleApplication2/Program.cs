@@ -10,6 +10,15 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Type a sentence that you want to reverse");
+            string text = Console.ReadLine();
+            string[] words = text.Split(' ');
+            int k = words.Length - 1;
+            for (int i = k; i >=0; i--)
+            {
+                Console.Write(words[i] + " ");
+            }
+            Console.ReadLine();
         }
     }
 }

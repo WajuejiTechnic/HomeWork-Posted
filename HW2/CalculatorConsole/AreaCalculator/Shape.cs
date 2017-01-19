@@ -47,7 +47,7 @@ namespace AreaCalculator
         {
             return radius * radius * 3.1416;
         }
-        public double GetRectangleArea(double width, double height)
+        public override double GetRectangleArea(double width, double height)
         {
             return width * height;
         }
