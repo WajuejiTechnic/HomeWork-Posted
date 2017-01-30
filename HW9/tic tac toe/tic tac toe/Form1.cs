@@ -31,6 +31,7 @@ namespace tic_tac_toe
             turn = !turn;
             b.Enabled = false;
             turn_count++;
+            checkForWinner();
         }
 
         private void checkForWinner()
@@ -42,7 +43,7 @@ namespace tic_tac_toe
                 thereIsAWinner = true;
             else if ((B1.Text == B2.Text) && (B2.Text == B3.Text) && (!B1.Enabled))
                 thereIsAWinner = true;
-            else if ((C1.Text == C2.Text) && (C2.Text == C3.Text) && (!B1.Enabled))
+            else if ((C1.Text == C2.Text) && (C2.Text == C3.Text) && (!C1.Enabled))
                 thereIsAWinner = true;
 
             //vertical checks
@@ -67,20 +68,28 @@ namespace tic_tac_toe
                 else
                     winner = "X";
                 MessageBox.Show(winner + " wins!");
+                disabledButton();          
             }
 
             if (turn_count == 9)
+            {
                 MessageBox.Show("Draw!");
+                disabledButton();
+            }              
         }
 
-        //private void disabledButton(Control c in Controls)
-        //{
-        //    try
-        //    {
-        //        Button b = (Button)c;
-        //        b.Enabled = false;
-        //    }
-        //    catch { }
-        //}
+        private void disabledButton()
+        {
+            try
+            {
+                foreach (Control c in Controls)
+                {
+                    Button b = (Button)c;
+                    b.Enabled = false;
+                }
+            
+            }
+            catch { }
+        }
     }
 }
